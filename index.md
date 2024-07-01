@@ -2,10 +2,10 @@
 A project that can detect objects, using TensorFlow Lite on the Raspberry Pi, adding convienence to your building experience. 
 
 <!---You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:-->
-```HTML 
+<!---```HTML -->
 <!--- This is an HTML comment in Markdown -->
 <!--- Anything between these symbols will not render on the published site -->
-```
+<!---```-->
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
