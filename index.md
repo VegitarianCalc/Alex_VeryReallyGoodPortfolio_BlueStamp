@@ -69,7 +69,7 @@ This is a retro game arcade, you can play SNES tetris with the up, down, left, r
 - Something that was particularly challenging was nailing down the soldering, putting the right amount soldering wire on the circuit and lining it up just straight was hard for me. 
 - I have made technical advances in understanding how soldering plays a role into assembly of circuits and projects.
 
-```c++
+<!---```c++
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
@@ -98,4 +98,4 @@ One of the best parts about Github is that you can view how other people set up 
 - [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
 
-To watch the BSE tutorial on how to create a portfolio, click here.
+To watch the BSE tutorial on how to create a portfolio, click here.-->
