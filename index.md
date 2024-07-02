@@ -62,7 +62,7 @@ Here's where you'll put your code. The syntax below places it into a block of co
 
 # Starter Project 
 
-<!---put in the video clip later-->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dIFbhf59PQw?si=9BH6f1EvKj84Bn3K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 This is a retro game arcade, you can play SNES tetris with the up, down, left, right buttons and rotational knob, it has a screen to display the score and the blocks alongside a START and STOP button.
 - Put simply, all of the input buttons and controls that the player can use will be sent to the micro controller chip in the center and will output movement on the LED display, sound in the peizo buzzer, and the score seen on the top right.
