@@ -51,11 +51,11 @@ My project is Raspberry Pi object detection through machine learning. My first m
 - Things that were challenging were installing packages and running the object detection in terminal. The solution was to establish a virtual environment for storing your libraries before installing packages. By doing this, you may use your installed libraries without worrying about dependency problems.
 - Going further, I plan to refine the object detection, and actually get to start coding, as up until now i've used a cloned github code. 
 
-# Schematics 
+<!---# Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
 # Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs.
+Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs.-->
 
 # Starter Project 
 
