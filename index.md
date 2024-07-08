@@ -44,12 +44,12 @@ For your second milestone, explain what you've worked on since your previous mil
 
 # First Milestone
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vohOa6oPDks?si=8L0LxwEzok91vPmi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/p8tFRpc52To?si=-ktnJg8QgnNMPHI5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-My project is Raspberry Pi object detection through machine learning. My first milestone involved building the hardware and installing, Venv, Tensorflow 2, Rpi vision, and some python modules onto the raspberry pi. The camera module will take a picture and run it through the tensorflow lite python interpreter and that will return what it thinks it sees:
+My project is Raspberry Pi object detection through machine learning. My first milestone involved building the hardware. The camera module will take a picture and run it through the tensorflow lite python interpreter and that will return what it thinks it sees:
 - Materials: Computer, Raspberry Pi 4 (64 bit), Web Cam, Adafruit Braincraft HAT.
-- Things that were challenging were installing packages and running the object detection in terminal. The solution was to establish a virtual environment for storing your libraries before installing packages. By doing this, you may use your installed libraries without worrying about dependency problems.
-- Going further, I plan to refine the object detection, and actually get to start coding, as up until now i've used a cloned github code. 
+- While building my hardware I accidentally touched the input and output pins which caused the raspberry pi to short circuit and I had to wait for claudia to order a new Raspberry pi, which made building the hardware a little difficult. 
+- Going further, I plan to start work on the first camera test, and getting the display to show what the camera is seeing. 
 
 <!---# Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
