@@ -24,8 +24,8 @@ A project that can detect objects, using TensorFlow Lite on the Raspberry Pi, ad
 In my third and final milestone, I developed an object detection software using TensorFlow Lite, enabling real-time object detection on the Raspberry Pi. Leveraging Google's TensorFlow GitHub library, I utilized their optimized computer vision model to achieve swift and efficient object detection and computer vision capabilities on the Raspberry Pi.
 - I was able to install a couple of python packages, and RPI vision. I then cloned a github repository and it had a data file that it trained a model that could detect objects. After installing tensorflow and running the command to start the object detection, it started working.
 - One of the biggest challenges with this final milestone was trying to run the command that would start the detection software. The terminal would say that it’s missing a module, I would install that module using a PIP command and it would say it’s missing a different module. For me to get it to work, I had to set up the virtual environment so all of my packages were in one place.
-<!---
-- A summary of key topics you learned about
+
+<!--- A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE-->
 
 
