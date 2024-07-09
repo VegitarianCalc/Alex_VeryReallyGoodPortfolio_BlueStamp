@@ -51,7 +51,8 @@ My project is Raspberry Pi object detection through machine learning. My first m
 
 # Schematics 
 
-![Headstone Image](Screenshot 2024-07-09 at 1.05.38 PM.png)
+<img width="495" alt="Screenshot 2024-07-09 at 1 05 38 PM" src="https://github.com/VegitarianCalc/Alex_VeryReallyGoodPortfolio_BlueStamp/assets/143454271/2aed104b-b061-4afd-bf0e-1d9c497a2063">
+
 
 <!---# Code
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs.-->
