@@ -49,10 +49,11 @@ My project is Raspberry Pi object detection through machine learning. My first m
 - While building my hardware I accidentally touched the input and output pins which caused the raspberry pi to short circuit and I had to wait for claudia to order a new Raspberry pi, which made building the hardware a little difficult. 
 - Going further, I plan to start work on the first camera test, and getting the display to show what the camera is seeing. 
 
-<!---# Schematics 
+# Schematics 
+![Headstone Image](Alex N.jpeg)
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
-# Code
+<!---# Code
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs.-->
 
 <!---```c++
