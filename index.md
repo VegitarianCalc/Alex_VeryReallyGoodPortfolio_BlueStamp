@@ -16,31 +16,62 @@ A project that can detect objects, using TensorFlow Lite on the Raspberry Pi, ad
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EV1cqBGiJh8?si=Ei2IFFhwSxzjn1fA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-In my third and final milestone, I developed an object detection software using TensorFlow Lite, enabling real-time object detection on the Raspberry Pi. Leveraging Google's TensorFlow GitHub library, I utilized their optimized computer vision model to achieve swift and efficient object detection and computer vision capabilities on the Raspberry Pi.
-- I was able to install a couple of python packages, and RPI vision. I then cloned a github repository and it had a data file that it trained a model that could detect objects. After installing tensorflow and running the command to start the object detection, it started working.
-- One of the biggest challenges with this final milestone was trying to run the command that would start the detection software. The terminal would say that it’s missing a module, I would install that module using a PIP command and it would say it’s missing a different module. For me to get it to work, I had to set up the virtual environment so all of my packages were in one place.
-- I learned a lot in my time at bluestamp. For example, how to code python on a raspberry pi, a basic understanding of neural networks.
-- Going beyond BSE I want to keep on working on projects that explore my intrests, so I can learn new things and build off the things that I've learned at Bluestamp. 
+## Summary
 
+In my third and final milestone, I developed an object detection software using TensorFlow Lite, enabling real-time object detection on the Raspberry Pi. Leveraging Google's TensorFlow GitHub library, I utilized their optimized computer vision model to achieve swift and efficient object detection and computer vision capabilities on the Raspberry Pi.
+
+## Progress
+
+I followed a detailed tutorial to set up TensorFlow 2 on my Raspberry Pi, which included installing essential Python packages, the speech output package, and the rpi-vision package. I successfully cloned and installed the Adafruit fork of the rpi-vision program and installed TensorFlow 2.15.0. After rebooting the Raspberry Pi, I ran the graphic labeling demo. The system was able to display the objects it detected on screen. The camera correctly identified several items, such as coffee mugs and animals, demonstrating that the object detection setup is working as intended.
+
+## Challenges
+
+One of the biggest challenges with this final milestone was trying to run the command that would start the detection software. The terminal would say that it’s missing a module, I would install that module using a PIP command and it would say it’s missing a different module. For me to get it to work, I had to set up the virtual environment so all of my packages were in one place.
+
+## What's Next
+
+Going forward, some modificaitons that I would make to this project were probably working on the ability to track multiple objects at once and putting a box around the objects that it's detecting.
 
 # Second Milestone
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/muLqT1Jm2Yo?si=g8nGha933mwRVHtQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Since my previous milestone, I have worked on setting up and testing the camera module and the Adafruit Braincraft HAT for my TensorFlow Lite Object Detection project. 
-- Properly connected and configured the Raspberry Pi Camera Module 3 to ensure it captures images correctly. Integrated the Adafruit Braincraft HAT to display the terminal output of the Raspberry Pi.
-- I encountered challenges in implementing the video feed from the camera to the Adafruit Braincraft HAT. As a solution, I utilized the main monitor on my computer, which ultimately was beneficial due to its better resolution.
-- Moving ahead, my focus will be on installing TensorFlow 2 and RPI Vision libraries on the Raspberry Pi, followed by testing the object detection capabilities.
+## Summary
 
-  
+Since my previous milestone, I have worked on setting up and testing the camera module and the Adafruit Braincraft HAT for my TensorFlow Lite Object Detection project.
+
+## Progress
+
+I Properly connected and configured the Raspberry Pi Camera Module 3 to ensure it captures images correctly. Integrated the Adafruit Braincraft HAT to display the terminal output of the Raspberry Pi.
+
+## Challenges
+
+I encountered challenges in implementing the video feed from the camera to the Adafruit Braincraft HAT. As a solution, I utilized the main monitor on my computer, which ultimately was beneficial due to its better resolution.
+
+## What's Next
+
+Moving ahead, my focus will be on installing TensorFlow 2 and RPI Vision libraries on the Raspberry Pi, followed by testing the object detection capabilities.
+
+
 # First Milestone
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/p8tFRpc52To?si=-ktnJg8QgnNMPHI5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-My project is Raspberry Pi object detection through machine learning. My first milestone involved building the hardware. The camera module will take a picture and run it through the tensorflow lite python interpreter and that will return what it thinks it sees:
-- Materials: Computer, Raspberry Pi 4 (64 bit), Web Cam, Adafruit Braincraft HAT.
-- While building my hardware I accidentally touched the input and output pins which caused the raspberry pi to short circuit and I had to wait for claudia to order a new Raspberry pi, which made building the hardware a little difficult. 
-- Going further, I plan to start work on the first camera test, and getting the display to show what the camera is seeing. 
+## Summary
+
+My project is Raspberry Pi object detection through machine learning. My first milestone involved building the hardware. The camera module will take a picture and run it through the tensorflow lite python interpreter and that will return what it thinks it sees.
+
+## Progress
+
+I set up all of the hardware for this project, which includes putting the SD card with Raspberry pi OS into the Raspberry Pi, using the gpio ribbon wire to connect the Adafruit Braincraft HAT to the Raspberry Pi, screwing in the Pi-fan on the back of the Adafruit Braincraft HAT, and plugging in the Raspberry Pi Camera Module 3.  
+
+## Challenges
+
+While building my hardware I accidentally touched the input and output pins which caused the raspberry pi to short circuit and I had to wait for claudia to order a new Raspberry pi, which made building the hardware a little difficult. 
+
+## What's Next
+
+Going further, I plan to start work on the first camera test, and getting the Adafruit Braincraft HAT to show what the camera is seeing. 
 
 # Schematics 
 
@@ -122,23 +153,16 @@ if __name__ == "__main__":
         cv2.destroyAllWindows()
 ```
 
-<!---# Bill of Materials
-Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
-Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
+# Bill of Materials
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Raspberry Pi 4 Model B | Is a small computer that does most of the computing | $61.75 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://www.amazon.com/Raspberry-Model-2019-Quad-Bluetooth/dp/B07TC2BK1X/ref=asc_df_B07TD42S27/?tag=&linkCode=df0&hvadid=380013417597&hvpos=&hvnetw=g&hvrand=7380946922219675202&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032183&hvtargid=pla-774661502856&ref=&adgrpid=77922879259&th=1"> Link </a> |
+| Raspberry Pi Camera Module 3 | Is a small modular camera that plugs into the Raspberry Pi | $45.99 | <a href="[https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://www.amazon.com/Arducam-Raspberry-Autofocus-Acrylic-15-22pin/dp/B0BX6N6V98/ref=sr_1_6?crid=2980RI5X7ETHI&dib=eyJ2IjoiMSJ9.LXcwA6pudfrqywsACAjxJ7XKRrNDWZEmJ7FVxfkqHCOqBtozsEshHVIJ5XdqMqhPmc3gUlmSCe_JNC0fEamH45j-KJIPiQVIsP6jrRXP6h_0mwIBZhzF3hoVxVkxhLDgH1BiXxLSG68uYWWk1waYl5KOgSiniN5wRLGyQfGDPgoS7r8qG5b0Fst4YYKsZGBiU5JY3456z43HEtX7tc-2_cRuJ391XvqJkK89wwiN9YY.GRL30M8F2oOmWE0Xy6EKVaNKzfxgHs1NjK3cL1P88fA&dib_tag=se&keywords=raspberry%2Bpi%2Bcamera%2Bmodule%2B3&qid=1720631713&sprefix=raspberry%2Bpi%2Bcamera%2Bmodule%2B3%2Caps%2C173&sr=8-6&th=1)"> Link </a> |
+| Adafruit Braincraft HAT | Is a display for Raspberry Pi | $44.95 | <a href="https://www.adafruit.com/product/4374"> Link </a> |
+| HDMI to USB converter | Converts HDMI feed from Raspberry Pi to USB | $14.99 | <a href="https://www.amazon.com/Capture-Streaming-Broadcasting-Conference-Teaching/dp/B09FLN63B3/ref=asc_df_B09FLN63B3/"> Link </a> |
+| Mini HDMI to HDMI | Converts Mini HDMI feed to HDMI | $8.49 | <a href="[https://www.amazon.com/Capture-Streaming-Broadcasting-Conference-Teaching/dp/B09FLN63B3/ref=asc_df_B09FLN63B3/](https://www.amazon.com/Amazon-Basics-Speed-Source-Display/dp/B014I8UEGY/ref=sr_1_1_ffob_sspa?crid=1LQLRCSP3JTFZ&dib=eyJ2IjoiMSJ9.0WyHRjCGMuzEGORjc5fjZfne5mFWRoXQ265wyEAbngY1SCMdivgQh-uJOLI-OuPYLhebjV1elOZabnbWkEmKBfnZ8N054xTHTEEvtcFFtREwseRyhq0dWPXsilPxNosJy13JWp64JhXC5kvDXWKcGfvImNVHbGAsygMotAcVicDGoaxPZSHw63vrNs7D5I1DTfJMtjxdZjD7lEe2hu41Ax2s9jELF3rY9AMNNXyIHvPeCxy1puLZOSdiyJMcFDzvIGAd8cATwdBUJaoH_NtaYvtBkKt1_JLPfbrDrdjgJmY.K7j5uwzRBxDwguYL90pdYMRX-NP12wjl9YUxX48rP6g&dib_tag=se&keywords=hdmi%2Bto%2Bmini%2Bhdmi&qid=1720632717&s=electronics&sprefix=HDMI%2Bto%2Bmini%2Celectronics%2C178&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1)"> Link </a> |
 
-# Other Resources/Examples
-One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
-- [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
-- [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
-- [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
-
-To watch the BSE tutorial on how to create a portfolio, click here.-->
 
 # Starter Project 
 
