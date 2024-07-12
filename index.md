@@ -6,8 +6,8 @@ A project that can detect objects, using TensorFlow Lite on the Raspberry Pi, ad
 |:--:|:--:|:--:|:--:|
 | Alex N. | Fremont | Mechanical Engineering | Incoming Junior
 
-![Headstone Image](Alex N.jpeg)
 
+![Alexnicholls](https://github.com/user-attachments/assets/769afe56-cca0-4e10-9b00-bdf3642b244a)
 
 
   
