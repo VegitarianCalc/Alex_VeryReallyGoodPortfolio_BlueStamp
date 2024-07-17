@@ -9,10 +9,21 @@ A project that can detect objects, using TensorFlow Lite on the Raspberry Pi, ad
 
 ![Alexnicholls](https://github.com/user-attachments/assets/769afe56-cca0-4e10-9b00-bdf3642b244a)
 
-# mod
+# Modification
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nfa1NcvNvV8?si=BekNDqx8RI_Do7dC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+## Summary
 
+For my Modification I made it track multiple objects and I was able to do that with OpenCV and python. In the software I added a feature where the user can choose specifically which objects to detect like mouse or person and it will only detect that object. I thought it would be cool if the camera could follow the objects in real time, so I built a pan tilt servo display, and with w, a, s, and d you can move the servos 180 degrees in 4 directions.
+
+## Challenges
+
+One of the biggest challenges with my modification was making the servos work, I had to give them the right amount of power to them with a battery pack. I wired up the servos with a transistors to reroute the power from the battery pack, I wired them incorrectly and the ground from the battery pack went straight to the raspberry pi. When I plugged it in I fried my Pi for the second time, and I had to get another one. 
+
+## What's Next
+
+If I were to continue this project with more time, I would spent more time understanding AI and adding layers to the pre-trained AI models, and making the servos spin in 360 degrees so it can see the entire room. 
 
 
 
@@ -21,7 +32,6 @@ A project that can detect objects, using TensorFlow Lite on the Raspberry Pi, ad
 
   
 # Final Milestone
-
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EV1cqBGiJh8?si=Ei2IFFhwSxzjn1fA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
