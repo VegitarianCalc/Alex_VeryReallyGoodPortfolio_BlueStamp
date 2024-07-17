@@ -9,6 +9,15 @@ A project that can detect objects, using TensorFlow Lite on the Raspberry Pi, ad
 
 ![Alexnicholls](https://github.com/user-attachments/assets/769afe56-cca0-4e10-9b00-bdf3642b244a)
 
+# mod
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nfa1NcvNvV8?si=BekNDqx8RI_Do7dC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
+
+
+
+
 
   
 # Final Milestone
