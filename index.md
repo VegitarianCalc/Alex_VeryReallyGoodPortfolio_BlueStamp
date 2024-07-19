@@ -1,5 +1,5 @@
 # Custom Object Detection System
-A project that can detect objects, using TensorFlow Lite on the Raspberry Pi, adding convienence to your building experience. 
+A project that can detect objects, using TensorFlow Lite on the Raspberry Pi, adding convenience to your building experience. 
 
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
@@ -15,15 +15,15 @@ A project that can detect objects, using TensorFlow Lite on the Raspberry Pi, ad
 
 ## Summary
 
-For my Modification I made it track multiple objects and I was able to do that with OpenCV and python. In the software I added a feature where the user can choose specifically which objects to detect like mouse or person and it will only detect that object. I thought it would be cool if the camera could follow the objects in real time, so I built a pan tilt servo display, and with w, a, s, and d you can move the servos 180 degrees in 4 directions.
+For my Modification I made it track multiple objects and I was able to do that with OpenCV and Python. In the software, I added a feature where the user can choose specifically which objects to detect like a mouse or person and it will only detect that object. I thought it would be cool if the camera could follow the objects in real-time, so I built a pan tilt servo display, and with w, a, s, and d you can move the servos 180 degrees in 4 directions.
 
 ## Challenges
 
-One of the biggest challenges with my modification was making the servos work, I had to give them the right amount of power to them with a battery pack. I wired up the servos with a transistors to reroute the power from the battery pack, I wired them incorrectly and the ground from the battery pack went straight to the raspberry pi. When I plugged it in I fried my Pi for the second time, and I had to get another one. 
+One of the biggest challenges with my modification was making the servos work, I had to give them the right amount of power to them with a battery pack. I wired up the servos with transistors to reroute the power from the battery pack, I wired them incorrectly and the ground from the battery pack went straight to the Raspberry Pi. When I plugged it in I fried my Pi for the second time, and I had to get another one. 
 
 ## What's Next
 
-If I were to continue this project with more time, I would spent more time understanding AI and adding layers to the pre-trained AI models, and making the servos spin in 360 degrees so it can see the entire room. 
+If I were to continue this project with more time, I would spend more time understanding AI adding layers to the pre-trained AI models, and making the servos spin in 360 degrees so it can see the entire room. 
 
 
 
@@ -41,7 +41,7 @@ In my third and final milestone, I developed an object detection software using 
 
 ## Progress
 
-I followed a detailed tutorial to set up TensorFlow 2 on my Raspberry Pi, which included installing essential Python packages, the speech output package, and the rpi-vision package. I successfully cloned and installed the Adafruit fork of the rpi-vision program and installed TensorFlow 2.15.0. After rebooting the Raspberry Pi, I ran the graphic labeling demo. The system was able to display the objects it detected on screen. The camera correctly identified several items, such as coffee mugs and animals, demonstrating that the object detection setup is working as intended.
+I followed a detailed tutorial to set up TensorFlow 2 on my Raspberry Pi, which included installing essential Python packages, the speech output package, and the rpi-vision package. I successfully cloned and installed the Adafruit fork of the rpi-vision program and installed TensorFlow 2.15.0. After rebooting the Raspberry Pi, I ran the graphic labeling demo. The system was able to display the objects it detected on screen. The camera correctly identified several items, such as coffee mugs and animals, demonstrating that the object detection setup was working as intended.
 
 ## Challenges
 
@@ -49,7 +49,7 @@ One of the biggest challenges with this final milestone was trying to run the co
 
 ## What's Next
 
-Going forward, some modificaitons that I would make to this project were probably working on the ability to track multiple objects at once and putting a box around the objects that it's detecting.
+Going forward, some modifications that I would make to this project were probably working on the ability to track multiple objects at once and putting a box around the objects that it's detecting.
 
 # Second Milestone
 
@@ -78,19 +78,19 @@ Moving ahead, my focus will be on installing TensorFlow 2 and RPI Vision librari
 
 ## Summary
 
-My project is Raspberry Pi object detection through machine learning. My first milestone involved building the hardware. The camera module will take a picture and run it through the tensorflow lite python interpreter and that will return what it thinks it sees.
+My project is Raspberry Pi object detection through machine learning. My first milestone involved building the hardware. The camera module will take a picture and run it through the TensorFlow lite python interpreter and that will return what it thinks it sees.
 
 ## Progress
 
-I set up all of the hardware for this project, which includes putting the SD card with Raspberry pi OS into the Raspberry Pi, using the gpio ribbon wire to connect the Adafruit Braincraft HAT to the Raspberry Pi, screwing in the Pi-fan on the back of the Adafruit Braincraft HAT, and plugging in the Raspberry Pi Camera Module 3.  
+I set up all of the hardware for this project, which includes putting the SD card with Raspberry Pi OS into the Raspberry Pi, using the gpio ribbon wire to connect the Adafruit Braincraft HAT to the Raspberry Pi, screwing in the Pi fan on the back of the Adafruit Braincraft HAT, and plugging in the Raspberry Pi Camera Module 3.  
 
 ## Challenges
 
-While building my hardware I accidentally touched the input and output pins which caused the raspberry pi to short circuit and I had to wait for claudia to order a new Raspberry pi, which made building the hardware a little difficult. 
+While building my hardware I accidentally touched the input and output pins which caused the Raspberry Pi to short circuit and I had to wait for Claudia to order a new Raspberry Pi, which made building the hardware a little difficult. 
 
 ## What's Next
 
-Going further, I plan to start work on the first camera test, and getting the Adafruit Braincraft HAT to show what the camera is seeing. 
+Going further, I plan to start work on the first camera test and get the Adafruit Braincraft HAT to show what the camera is seeing. 
 
 # Schematics 
 
@@ -188,7 +188,8 @@ if __name__ == "__main__":
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dIFbhf59PQw?si=9BH6f1EvKj84Bn3K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
-This is a retro game arcade, you can play SNES tetris with the up, down, left, right buttons and rotational knob, it has a screen to display the score and the blocks alongside a START and STOP button.
-- Put simply, all of the input buttons and controls that the player can use will be sent to the micro controller chip in the center and will output movement on the LED display, sound in the peizo buzzer, and the score seen on the top right.
-- Something that was particularly challenging was nailing down the soldering, putting the right amount soldering wire on the circuit and lining it up just straight was hard for me. 
-- I have made technical advances in understanding how soldering plays a role into assembly of circuits and projects.
+This is a retro game arcade, you can play SNES Tetris with the up, down, left, and right buttons and rotational knob, it has a screen to display the score and the blocks alongside a START and STOP button.
+- Put simply, all of the input buttons and controls that the player can use will be sent to the microcontroller chip in the center and will output movement on the LED display, sound in the piezo buzzer, and the score seen on the top right.
+- Something that was particularly challenging was nailing down the soldering, putting the right amount of soldering wire on the circuit and lining it up just straight was hard for me. 
+- I have made technical advances in understanding how soldering plays a role in the assembly of circuits and projects.
+
